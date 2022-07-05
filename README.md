@@ -23,7 +23,7 @@ To fufill CarWax's request we underwent the following steps:
 
 ### Running Code
 
-The entire analysis can be run including the web scraper although a few libraries may need to be installed beforehand.
+The entire analysis can be run, including the web scraper, although a few libraries may need to be installed beforehand.
 
 Dependencies: pandas, numpy, BeautifulSoup, sklearn, matplotlib, seaborn
 
