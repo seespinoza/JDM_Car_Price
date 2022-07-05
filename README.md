@@ -29,7 +29,7 @@ Dependencies: pandas, numpy, BeautifulSoup, sklearn, matplotlib, seaborn
 
 Files:
 - `scraper.py`: Generates dataset used in EDA analysis by scraping all used car postings on https://carfromjapan.com/
-- `Car_Price_EDA.ipynb`: Jupyter notebook with EDA results and saves cleaned dataset to file for the modeling step
+- `Car_Price_EDA.ipynb`: Jupyter notebook with EDA results and saves cleaned dataset to file before the modeling step
 - `Modeling.ipynb`: Jupyter notebook with modeling results and saves best-performing model to file for delivering to the client
 
 The entire project can be recreated by running the three files in the order they are listed.
