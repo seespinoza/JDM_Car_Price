@@ -5,7 +5,7 @@ CarWax is a used vehicle retailer based in the United States that has decided to
 
 **Note:** CarWax has partnered with Car From Japan Co. (https://carfromjapan.com/) and will only use data from this vendor.
 
-### Project Description
+## Project Description
 
 To fufill CarWax's request we underwent the following steps:
 
@@ -21,7 +21,7 @@ To fufill CarWax's request we underwent the following steps:
   b) Identified best-performing model and saved model
 
 
-### Running Code
+## Running Code
 
 The entire analysis can be run, including the web scraper, although a few libraries may need to be installed beforehand.
 
@@ -35,7 +35,7 @@ Files:
 The entire project can be recreated by running the three files in the order they are listed.
 
 
-### Conclusion
+## Conclusion
 
 Our recommendation is that CarWax implents an Ensemble model (composed of Random Forest, Decision Tree, and XGBoost) to help automate their method for calculating restocking costs. This algorithm had the lowest root mean square error (RMSE) compared to other algorithms tested after 10-fold cross validation. We chose RMSE as the metric for identifying the best model because RMSE more heavily penalizes models with larger errors; a major concern CarWax has is greatly over or underestimating the dollar amount they need to spend next month.
 
