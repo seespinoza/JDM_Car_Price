@@ -1,7 +1,7 @@
 # Project: Predicting Car Price
 
 ### Business Use Case
-CarWax is a used vehicle retailer based in the United States that has decided to start selling used Japanese domestic market (JDM) vehicles. CarWax plans on restocking their JDM vehicle inventory each month, and they would like to have an automated system that can quickly calculate how much money they will need to spend next month based on the types of vehicles that are needed. Specifically, CarWax would like to have a machine learning model which can take a set of inputs (engine size, body type, number of seats, etc...) and return an estimated price for the vehicle.
+CarWax is a used vehicle retailer based in the United States that has decided to start selling used Japanese domestic market (JDM) vehicles. CarWax plans on restocking their JDM vehicle inventory each month, and they would like to have an automated system that can quickly calculate how much money they will need to spend next month based on the types of vehicles that are needed. Specifically, CarWax would like to have a machine learning model which can take a set of inputs (engine size, body type, number of seats, etc...) and return an estimated price for a single vehicle. This process would be repeated based on the amount of cars CarWax anticipates to buy that month.
 
 **Note:** CarWax has partnered with Car From Japan Co. (https://carfromjapan.com/) and will only use data from this vendor.
 
