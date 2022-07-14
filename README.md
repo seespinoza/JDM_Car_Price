@@ -7,7 +7,7 @@ CarWax is a used vehicle retailer based in the United States that has decided to
 
 ## Project Description
 
-To fufill CarWax's request we underwent the following steps:
+To fulfill CarWax's request we underwent the following steps:
 
 1) Scraped the Car From Japan website for all available used car listings using a python script.
 2) Performed an Exploratory Data Analysis
