@@ -11,14 +11,14 @@ To fulfill CarWax's request we underwent the following steps:
 
 1) Scraped the Car From Japan website for all available used car listings using a python script.
 2) Performed an Exploratory Data Analysis
-  a) Cleaned data and removed potentially erroneous entries
-  b) Looked at the relationships between variables
-  c) Observed distribution of variables
-  d) Performed dimensionality reduction analysis
-  e) Saved cleaned dataset for modeling
+    - Cleaned data and removed potentially erroneous entries
+    - Looked at the relationships between variables
+    - Observed distribution of variables
+    - Performed dimensionality reduction analysis
+    - Saved cleaned dataset for modeling
 3) Modeling
-  a) Trained and tested several machine learning algorithms using n-fold cross validation
-  b) Identified best-performing model and saved model
+    - Trained and tested several machine learning algorithms using n-fold cross validation
+    - Identified best-performing model and saved model
 
 
 ## Running Code
