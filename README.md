@@ -14,8 +14,8 @@ To fulfill CarWax's request we underwent the following steps:
   a) Cleaned data and removed potentially erroneous entries
   b) Looked at the relationships between variables
   c) Observed distribution of variables
-  c) Performed dimensionality reduction analysis
-  d) Saved cleaned dataset for modeling
+  d) Performed dimensionality reduction analysis
+  e) Saved cleaned dataset for modeling
 3) Modeling
   a) Trained and tested several machine learning algorithms using n-fold cross validation
   b) Identified best-performing model and saved model
