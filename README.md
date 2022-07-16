@@ -37,7 +37,7 @@ The entire project can be recreated by running the three files in the order they
 
 ## Conclusion
 
-Our recommendation is that CarWax implents an Ensemble model (composed of Random Forest, Decision Tree, and XGBoost) to help automate their method for calculating restocking costs. This algorithm had the lowest root mean square error (RMSE) compared to other algorithms tested after 10-fold cross validation. We chose RMSE as the metric for identifying the best model because RMSE more heavily penalizes models with larger errors; a major concern CarWax has is greatly over or underestimating the dollar amount they need to spend next month.
+Our recommendation is that CarWax implents an Ensemble model (composed of Random Forest, Decision Tree, and XGBoost) to help automate their method for calculating restocking costs. This algorithm had the lowest root mean square error (RMSE) compared to other algorithms tested after 10-fold cross validation and reported 79% accuracy (1 - MAPE) on our test set. We chose RMSE as the metric for identifying the best model because RMSE more heavily penalizes models with larger errors; a major concern CarWax has is greatly over or underestimating the dollar amount they need to spend next month.
 
 Our EDA also brought up some concerns with the data posted on Car From Japan's website. Namely, there were several listings for used JDM cars which were going for $100M+. Similarly, we observed a few cars with absurdly large mileages (3M+ mi) and absurdly large engines (64,000+ cubic centimeters). We had no way of confirming if these entries were erroneously entered, but it is something that we would like to communicate to Car From Japan. 
 
